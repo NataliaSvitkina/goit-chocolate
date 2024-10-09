@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background: #fafafa;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ================= HEADER STYLES =============== */
+.page-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #fd9222;
+}
+/* ================= /HEADER STYLES =============== */
+
+/* ================= HERO STYLES =============== */
+.section-hero {
+  border-radius: 30px;
+  width: 1200px;
+  height: 600px;
+  background: #1e1823;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.btn-buy-now {
+  background-color: #fd9222;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-buy-now:hover,
+.btn-buy-now:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.link-how-made {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.link-how-made:hover,
+.link-how-made:focus {
+  color: #fd9222;
+}
+
+.link-scroll-down {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.link-scroll-down:hover,
+.link-scroll-down:focus {
+    color: #fd9222;
+}
+/* ================= /HERO STYLES =============== */
